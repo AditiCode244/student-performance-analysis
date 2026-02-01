@@ -5,25 +5,21 @@ This project analyzes student academic performance using data science and machin
 The objective is to understand factors affecting final grades and predict student outcomes.
 
 ## 🛠 Tools & Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
+- Python – programming language
+- Jupyter Notebook – interactive coding and visualization
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
 
 ## 📊 Dataset Features
-- Study Time
-- Absences
-- Failures
-- Previous Grades (G1, G2)
-- Final Grade (G3)
+- The dataset contains information about students’ academic and personal details:
+      studytime, failures, absences, G1, G2, G3 and more.
+- Target variable: G3 (Final grade)
+- Features include: study habits, family background, health, and prior performance.
 
 ## 📈 Key Insights
-- Study time has a positive correlation with final grades
-- Higher absences negatively impact performance
-- Previous grades (G1, G2) strongly influence G3
+- Study time is positively correlated with final grades.
+- Higher absences often lead to lower performance.
+- Previous grades (G1, G2) are strong indicators of final grades.
+- Visualizations (heatmaps, bar charts) help identify influential features.
 
 ## 🎯 Project Outcome
 - Performed data cleaning and visualization
